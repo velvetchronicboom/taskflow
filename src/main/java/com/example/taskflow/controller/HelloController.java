@@ -10,6 +10,6 @@ public class HelloController {
     @GetMapping("/api/hello")
     public String hello() {
         System.out.println("Testing debug pointer");
-        return "This was cool";
+        return "Testing 2.0";
     }
 }
